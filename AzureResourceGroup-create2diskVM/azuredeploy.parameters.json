@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName": {
+      "value": "tssftp81"
+    },
+    "osType": {
+      "value": "Windows"
+    },
+    "osDiskVhdUri": {
+      "value": "https://rigazureexport.blob.core.windows.net/master-ts-sftp/patch13/disk-0.vhd"
+    },
+    "dataDisk0VhdUri": {
+      "value": "https://rigazureexport.blob.core.windows.net/master-ts-sftp/patch13/disk-1.vhd"
+    },
+    "vmSize": {
+      "value": "Standard_DS1_v2"
+    },
+    "existingVirtualNetworkName": {
+      "value": "CE-MOB-TEST-DEV-NE-ARM-VNET"
+    },
+    "existingVirtualNetworkResourceGroup": {
+      "value": "Tfltestresourcegroup"
+    },
+    "subnetName": {
+      "value": "Mobile_App"
+    }
+  }
+}
