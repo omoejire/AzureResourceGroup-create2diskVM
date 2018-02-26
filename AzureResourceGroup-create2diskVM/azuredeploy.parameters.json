@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "vmName": {
-      "value": "tssftp81"
+      "value": "tssftpbuild"
     },
     "osType": {
       "value": "Windows"
